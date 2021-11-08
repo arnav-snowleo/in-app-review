@@ -12,6 +12,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  #in_app_review: 2.0.3
+
+  rating_dialog:
+    path: ./
 
 dev_dependencies:
   flutter_test:

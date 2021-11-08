@@ -1,28 +1,15 @@
 import 'package:flutter/material.dart';
+import 'example.screen.dart';
 
-void main() {
-  runApp(App());
-}
+void main() => runApp(MyApp());
 
-class App extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: Home());
-  }
-}
-
-class Home extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text('Hello 👋 '),
-      ),
+      title: 'Rating Dialog Demo',
+      theme: ThemeData.dark(),
+      home: HomeScreen(),
     );
   }
 }
