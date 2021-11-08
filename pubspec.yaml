@@ -1,5 +1,5 @@
 name: in_app_review
-description: A new Flutter project.
+description: submit in app review 
 
 publish_to: 'none'
 version: 1.0.0+1
@@ -11,7 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
+  #cupertino_icons: ^1.0.2
+  rate_my_app: ^1.1.1
 
 dev_dependencies:
   flutter_test:
